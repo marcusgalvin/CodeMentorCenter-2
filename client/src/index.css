@@ -1,0 +1,441 @@
+#header {
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+}
+
+#title {
+  /* margin-right: 50px; */
+
+}
+
+#icon{
+  background-image: url('https://assets.coingecko.com/coins/images/5233/small/recordfarm-logo.jpg');
+  width: 50px;
+  height: 50px;
+  float:left;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+#cmcphoto{
+  background-image: url('https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/56444946_10157223441653792_1052492980109180928_n.jpg?_nc_cat=110&_nc_oc=AQn8C0a1-gOKXdf46coqV7f7Wgr3IFizZHqp11bwo1Zv3vFRi5vB0ukrGaj88LN4NIY&_nc_ht=scontent.fbos1-2.fna&oh=cf8ba630efd208dd9e78ecf858a818d5&oe=5D87510C')
+}
+
+
+#state {
+  /* background-color: red; */
+  text-align: center;
+}
+
+#app1 {
+  margin-top: 100px
+}
+
+#wholeNavBar {
+  height: 25px;
+  
+   /* background-image: url("recordstore.v1 (1).jpg"); */
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nobile', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+#line {
+  font-size: 30px;
+}
+
+
+/* ############################################### -- 'browse div' */
+
+#top3{
+  display:flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#bottom3{
+  display:flex;
+  justify-content: center;
+    margin: 10px;
+
+}
+
+
+#hiphop{
+    border-radius: 50%;
+
+margin: 10px;
+/* background-image: url('http://stellinadiving.com/wp-content/uploads/2018/10/hip-hop-logo-design-hip-hop-logo-design-inspirations-graphic-design-inspiration-printable-150x150.jpg') */
+}
+
+#country{
+    border-radius: 50%;
+
+margin: 10px;
+}
+
+#rock{
+    border-radius: 50%;
+margin: 10px;
+/* background-image: url('http://cdn.shoplightspeed.com/shops/610355/files/12412715/150x150x2/red-white-blue-guitar-magnet.jpg') */
+}
+
+#pop{
+    border-radius: 50%;
+margin: 10px;
+margin-top: -10px;
+
+}
+
+#jazz{
+border-radius: 50%;
+margin: 10px;
+margin-top: -10px;
+
+
+}
+
+#reggae{
+    border-radius: 50%;
+
+margin: 10px;
+margin-top: -10px;
+
+}
+
+#message {
+  text-align:center;
+}
+
+#photo {
+  /* height: 150px;
+  width: 150px; */
+  background-image: url('')
+
+}
+
+#buyMusic {
+}
+
+/* #twitter {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+    float: right;
+
+  background-image: url('http://www.professionalwireless.com/wp-content/uploads/2016/01/twitter-icon.jpg');
+  
+}
+
+#instagram {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+    float: right;
+
+  background-image: url('http://www.yondordiamonds.com/wp-content/uploads/2016/06/Instagram-icon.png');
+  
+}
+
+#github {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+    float: right;
+
+  background-image: url('http://gomagick.herokuapp.com/img?size=100x100&url=https://github.com/apple-touch-icon.png');
+  
+} */
+/* 
+#container {
+  display:flex;
+  text-align: auto;
+} */
+
+#first {
+  width: 150px;
+  height: 50px;
+}
+
+#footer {
+ height: 50px;
+ /* border-style: solid;
+  border-width: 2px; */
+}
+
+/* #talk {
+  float: left;
+  width: 50px;
+  height: 50px;
+  /* background-image: url('https://static.getjar.com/icon-50x50/5b/16670_thm.png') */
+/* } */ 
+/* 
+#twitterFoot {
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin:10px;
+  background-image: url('https://static.getjar.com/icon-50x50/5b/16670_thm.png')
+}
+
+#instaFoot {
+  float: right;
+  width: 50px;
+  height: 50px;
+    margin:10px;
+  background-image: url('https://static.getjar.com/icon-50x50/d3/947675_thm.png')
+}
+
+#faceFoot {
+  float: right;
+  width: 50px;
+  height: 50px;
+    margin:10px;
+
+  background-image: url('https://static.getjar.com/icon-50x50/c7/957154_thm.jpg')
+}
+
+#faceFoot {
+  float: right;
+  width: 50px;
+  height: 50px;
+  /* background-image: url('https://static.getjar.com/icon-50x50/c7/957154_thm.jpg')
+} */ 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.github {
+  background-color: #000000;
+  color: white;
+}
+
+.linkedin {
+  background-color: #ffffff;
+  color: black;
+}
+.google {
+  background-color: #fc0707;
+  color: black;
+}
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+/* ############################# */
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column 1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 240px;
+}
+
+.container1 {
+  padding: 0 16px;
+  width: 250px;
+}
+
+.container1::after, .row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title1 {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #555;
+}
+
+
+#picPage {
+  display: flex;
+  justify-content: center;
+}
+
+#picture {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://static.thenounproject.com/png/212110-200.png')
+}
+
+#stars {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-image: url('https://cdn2.hubspot.net/hub/204663/hubfs/5-stars-top.jpg?width=100&name=5-stars-top.jpg')
+}

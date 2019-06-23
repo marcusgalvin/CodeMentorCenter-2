@@ -1,0 +1,49 @@
+<DOCTYPE html>
+
+<head>
+<title>my express app </title>
+<script src = "script.js"></script>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<link rel ="stylesheet" href="style.css"
+</head>
+
+
+<body>
+
+  <h2>My Express App</h2>
+
+  <input placeholder="user name" id="userName" type="text">
+  
+  <button onClick="getUserInfo()">Get user info</button>
+ 
+ 
+ 
+  <p id="userInfo"></p>
+  <h2>User registration</h2>
+  <input placeholder="user name" id="user-name" type="text">
+  <input placeholder="user id" id="user-id" type="text">
+  <input placeholder="message" id="message" type="text">
+<button onClick="handleSubmit()">Submit</button>
+
+<h3>Get All Users</h3>
+<button onclick="getAllUsers()">Get</button>
+<p id="result"></p>
+
+
+
+
+<h3> Get a Table </h3>
+
+<button onclick="getATable()">Get</button>
+
+<p id="results"></p>
+
+
+
+</body>
+
+
+
+
+</html>
